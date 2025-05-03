@@ -96,21 +96,7 @@ AGS is **easy to install** and supports **various users**:
 
 ---
 
-## 🔗 Reference Links:
-- [AutoGen Studio Overview](https://www.gettingstarted.ai/autogen-studio-overview/)  
-- [AutoGen Studio Documentation](https://microsoft.github.io/autogen/stable/user-guide/autogen
-  
-## 🎯 4️⃣ Why AutoGen Studio?
-AutoGen Studio **simplifies agentic AI** by providing a **low-code interface** to:
-- **Design and configure AI agents**.
-- **Automate workflows** for complex tasks.
-- **Prototype multi-agent collaboration** with ease.
-
 🔗 **Learn More About AutoGen Studio**:  
 - [AutoGen Studio Overview](https://www.gettingstarted.ai/autogen-studio-overview/)  
 - [AutoGen Studio User Guide](https://microsoft.github.io/autogen/stable/user-guide/autogenstudio-user-guide/index.html)
-
----
-
-💡 **Final Thoughts**:  
-Agentic AI is driving the **next wave of AI evolution**, unlocking **new possibilities** through **collaborative intelligence**. 🚀
+  
