@@ -88,15 +88,74 @@ AutoGen Studio helps you **focus on AI innovation** instead of **manual programm
 
 ---
 
-## 🎯 4️⃣ Getting Started
-### 💻 Installation & Setup:
-AGS is **easy to install** and supports **various users**:
-- **No IT background?** No problem! Simple **setup steps** available.
-- **AI developers?** Quickly experiment with **agentic AI concepts**.
-
----
-
 🔗 **Learn More About AutoGen Studio**:  
 - [AutoGen Studio Overview](https://www.gettingstarted.ai/autogen-studio-overview/)  
 - [AutoGen Studio User Guide](https://microsoft.github.io/autogen/stable/user-guide/autogenstudio-user-guide/index.html)
   
+
+# 🤖 Building Your First AI Agent in AutoGen Studio
+
+## 📌 Overview
+AutoGen Studio enables users to **build AI agents** that can perform tasks **autonomously**. This guide covers **key components, agent types, and creation steps** to help you design your first AI agent.
+
+---
+
+## 🏗️ 1️⃣ Key Components of an AI Agent
+Before creating an agent, it's important to understand its core elements:
+
+### 🔹 Skills  
+- **Python functions** defining what an agent can do.
+- Examples: **Generating text, fetching data, performing calculations**.
+- Should be **flexible & reusable** for multiple tasks.
+
+### 🔹 Models  
+- **Large language models** like **GPT-4** or a **locally hosted model**.
+- Serve as the agent's **brain**, interpreting and generating responses.
+
+### 🔹 Agents  
+- **Personas** that are equipped with **skills and models**.
+- **Customizable behavior** through system messages and prompts.
+
+---
+
+## 🔁 2️⃣ Types of AI Agents in AutoGen Studio
+AutoGen Studio provides various **agents for different roles**:
+
+### 🧩 Conversable Agent  
+- **Parent agent** providing core functionality.  
+*(Not commonly used directly.)*
+
+### 🔗 User Proxy Agent  
+- Acts as a **bridge** between **user inputs** and the system.  
+- **Executes code** and **passes instructions** to other agents.
+
+### ⚙️ Assistant Agent  
+- **Primary workhorse** handling **content generation, planning, and execution**.  
+- Can be **equipped with skills and models** for autonomous operation.
+
+### 👥 Group Chat Agent (Group Chat Manager)  
+- **Manages AI agent interactions** in a multi-agent environment.  
+- Ensures **coordination, message passing, and turn-taking**.
+
+---
+
+## 🚀 3️⃣ Steps to Build an AI Agent
+
+### 🛠 1. Define Skills (Optional)  
+- Create **Python-based functions** for AI capabilities.
+
+### 🧠 2. Configure a Model  
+- Select a **large language model** (e.g., **GPT-4o**).
+
+### 🔨 3. Build the AI Agent  
+- **Combine skills & models** into a structured **agent persona**.
+- Set up **instructions/meta-prompts** to define behavior.
+
+### 🔄 4. Assign Agent to a Workflow  
+- Place the agent in an **interaction framework** for **collaborative execution**.
+
+### 🎮 5. Test in the Playground  
+- Observe agent behavior and **refine workflows**.
+- Think of it as a **sandbox for AI interaction testing**.
+
+
