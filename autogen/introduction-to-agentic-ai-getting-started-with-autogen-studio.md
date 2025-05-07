@@ -158,4 +158,46 @@ AutoGen Studio provides various **agents for different roles**:
 - Observe agent behavior and **refine workflows**.
 - Think of it as a **sandbox for AI interaction testing**.
 
+# Agentic Workflows in AutoGen Studio
+
+AutoGen Studio enables multi-agent collaboration through **two primary workflows**:  
+- **Autonomous Chat**  
+- **Sequential Chat**  
+
+Each workflow optimizes interaction based on the nature of the task.
+
+## Autonomous Chat  
+In **autonomous chat**, agents work independently to achieve a goal.  
+This workflow supports:
+- **Two-agent chat**: A user proxy agent initiates tasks, and an assistant agent executes them.  
+- **Group chat**: Multiple agents collaborate, guided by a **group chat manager** that assigns tasks and ensures smooth execution.
+
+### Example: Translation Workflow  
+A group chat manager oversees the following agent interactions:  
+1. **Agent A** - Translates the text.  
+2. **Agent B** - Reviews translation style.  
+3. **Agent C** - Fact-checks the content.  
+4. **Agent X** - Polishes the final output.  
+5. **Summarizer** - Compiles results when the task is complete.  
+
+**Downside:** The chat manager **slows down** interaction by processing each conversation turn.
+
+## Sequential Chat  
+In **sequential chat**, agents operate in a **structured step-by-step manner**.  
+Each agent waits for the previous one to finish before proceeding.  
+
+This workflow is ideal for tasks requiring a **clear sequence of operations**, such as:
+- Drafting a report  
+- Reviewing the document  
+- Finalizing the content  
+
+**Key Advantage:** Faster execution since it doesn't rely on a central **chat manager**.  
+
+## Choosing the Right Workflow  
+- **Use Autonomous Chat** for **flexible, dynamic** collaboration.  
+- **Use Sequential Chat** for **methodical, step-based** processes.  
+
+AutoGen Studio’s workflows provide a powerful framework for **multi-agent automation and collaboration**.  
+
+
 
