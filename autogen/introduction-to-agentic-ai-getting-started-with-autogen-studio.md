@@ -5,7 +5,7 @@
 
 ## Set Up the Environment
 
-### Open the terminal in Codespaces.
+### Open the terminal
 
 ### Install Python dependencies:
 ```
