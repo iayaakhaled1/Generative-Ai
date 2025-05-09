@@ -1,7 +1,7 @@
 # 🧠 Agentic AI Basics: Understanding AI Agent Collaboration
 
 
-# AutoGen Studio Setup on GitHub Codespaces
+# AutoGen Studio Setup on VSCODE
 
 ## Set Up the Environment
 
