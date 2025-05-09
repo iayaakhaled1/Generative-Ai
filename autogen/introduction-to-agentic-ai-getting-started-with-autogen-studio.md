@@ -201,3 +201,34 @@ AutoGen Studio’s workflows provide a powerful framework for **multi-agent auto
 
 
 
+# Tools and Function Calling in AutoGen Studio
+
+## Overview
+AutoGen Studio is a **low-code environment** for setting up agent workflows, combining:
+- **Visual tools** for ease of use.
+- **Function calling** for enhanced flexibility.
+
+## Function Calling Basics
+Function calling enables agents to dynamically invoke predefined functions (**skills**), executing:
+- **API calls**
+- **Data retrieval**
+- **Custom calculations**
+
+## Workflow of Function Calling
+1. **LLM Session Initiation** – AutoGen Studio starts an LLM session with available functions.
+2. **Agent Decision Making** – The LLM selects appropriate functions based on context.
+3. **Function Execution** – The selected function performs tasks such as API queries or computations.
+4. **Result Transmission** – The function’s output is returned to the LLM.
+5. **Agent Response** – The agent integrates the function’s result into its conversation.
+
+## Creating Functions in AutoGen Studio
+- Functions (called **skills**) are **Python-based**.
+- Available in the **Build tab** under the **Skills section**.
+- Users can:
+  - Copy existing functions for reference.
+  - Generate new functions using LLM assistance.
+
+## Benefits of Function Calling
+- **Automates complex workflows seamlessly.**
+- **Enhances agent intelligence** beyond text-based tasks.
+- **Simplifies execution**, removing manual intervention.
