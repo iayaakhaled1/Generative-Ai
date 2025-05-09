@@ -1,5 +1,31 @@
 # 🧠 Agentic AI Basics: Understanding AI Agent Collaboration
 
+
+# AutoGen Studio Setup on GitHub Codespaces
+
+## Set Up the Environment
+
+### Open the terminal in Codespaces.
+
+### Install Python dependencies:
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -U autogenstudio
+```
+
+## Run AutoGen Studio
+### Start the UI server:
+```
+autogenstudio ui --port 8081
+```
+
+## AutoGen Studio UI
+
+Once AutoGen Studio is successfully launched, the **web-based UI** will be accessible. It allows users to **configure AI agents, manage workflows, and prototype interactions** seamlessly.
+![image](https://github.com/user-attachments/assets/c6432e38-2d6f-4079-8b59-f25c60f2f674)
+
+
 ## 📌 Overview
 Agentic AI enables **AI agents to collaborate, debate, and learn from each other**, solving complex problems **more effectively** than isolated models. Tools like **AutoGen Studio** make this concept accessible.
 
